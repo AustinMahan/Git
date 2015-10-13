@@ -18,13 +18,26 @@ console.log(showTV);
 
 // Object Exercises
 // 5. Create an object called "myPartner" that describes you with your partnery's name, favorite color, and pet's name.
+var myPartner = new Object();
+
+myPartner.name = "Austin";
+myPartner.color = "blue";
+myPartner.pet = "shelby";
+
+console.log(myPartner);
 
 // 6. Create an object called dogs. Assign a key of "favoriteBreeds" with the value being an array of three dog breeds.
+var dogs = new Object();
 
+dogs.favoriteBreeds =["Chow-Chow", "Husky", "Lab"];
+
+console.log(dogs);
 // 7. Get the length of the 3rd dog name.
+dogs.favoriteBreeds[2].length
 
 // 8. To the dogs object, add a key of "sweetNames" with a value that is an array of dog names.
 
+dogs.sweetNames = ["Fido", "Spot", "tank", "Doug"];
 
 
 // Looping Exercises
