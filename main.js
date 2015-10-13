@@ -20,9 +20,7 @@ console.log(showTV);
 // 5. Create an object called "myPartner" that describes you with your partnery's name, favorite color, and pet's name.
 var myPartner = new Object();
 
-myPartner.name = "Austin";
-myPartner.color = "blue";
-myPartner.pet = "shelby";
+
 
 console.log(myPartner);
 console.log('hi');
