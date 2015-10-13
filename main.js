@@ -54,7 +54,7 @@ for(i=0; i<numArray.length; i++){
 }
 console.log("hi");
 // 11. Write a loop that outputs the following to the console:
-// *
+Hell
 // **
 // ***
 // ****
