@@ -25,6 +25,7 @@ myPartner.color = "blue";
 myPartner.pet = "shelby";
 
 console.log(myPartner);
+console.log('hi');
 
 // 6. Create an object called dogs. Assign a key of "favoriteBreeds" with the value being an array of three dog breeds.
 var dogs = new Object();
