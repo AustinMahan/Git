@@ -29,10 +29,17 @@ console.log(showTV);
 
 // Looping Exercises
 // 9. Using a loop, log to the console numbers 23 to 99, only in increments of 3.
-
+for(i=23; i<=99; i++){
+  console.log(i);
+}
 // 10. Given the following Array, console log 'Even' if the number is even, 'Even and greater than 10' if the
 //     number is even and greater than 10, and 'Odd' if the number is odd.
 var numArray = [2, 19, 7, 34, 6];
+for(i=0; i<numArray.length; i++){
+  if((numArray[i] % 2) == 0){
+    console.log(numArray[i]);
+  }
+}
 
 // 11. Write a loop that outputs the following to the console:
 // *
