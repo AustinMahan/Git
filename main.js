@@ -1,17 +1,20 @@
 // Array exercises
 // 1. Use the following array to join all of the words together.
 var arraySentence = ["I'm", "now", "a", "pro", "at", "arrays", "!"];
+console.log(arraySentence.toString());
 
 // Use the following array for questions 2-4:
 var tvShows = ["Portlandia", "Curb Your Enthusiasm", "Dr. Quinn, Medicine Woman"];
 
 // 2. Change the second element to "Full House"
-
+tvShows[1] = "Full House"
+console.log(tvShows);
 // 3. Add a new TV show to the beginning of the array.
-
+tvShows.unshift("Idk")
+console.log(tvShows);
 // 4. Create a new Array called showTV. The items should be the same as tvShows, only in reverse order
-
-
+var showTV = tvShows.reverse()
+console.log(showTV);
 
 // Object Exercises
 // 5. Create an object called "myPartner" that describes you with your partnery's name, favorite color, and pet's name.
